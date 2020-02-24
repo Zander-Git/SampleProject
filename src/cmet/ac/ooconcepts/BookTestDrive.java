@@ -19,6 +19,8 @@ public class BookTestDrive {
 		myBooks[2] = new Book("whatever2", "something2");
 		myBooks[3] = new Book("How to zander", "Zander");
 		
+		myBooks[3] = new Book("test branch", "Zander");
+		
 		for (Book book : myBooks) {
 			System.out.println("the book " + book.getTitle() +
 					"is written by " + book.getAuthor());
