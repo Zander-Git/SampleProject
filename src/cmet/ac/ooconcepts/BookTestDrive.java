@@ -17,6 +17,7 @@ public class BookTestDrive {
 		myBooks[0] = new Book("whatever", "something");
 		myBooks[1] = new Book("whatever1", "something1");
 		myBooks[2] = new Book("whatever2", "something2");
+		myBooks[3] = new Book("How to zander", "Zander");
 		
 		for (Book book : myBooks) {
 			System.out.println("the book " + book.getTitle() +
