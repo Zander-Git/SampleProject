@@ -13,7 +13,7 @@ public class BookTestDrive {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Book[] myBooks = new Book[3];
+		Book[] myBooks = new Book[4];
 		myBooks[0] = new Book("whatever", "something");
 		myBooks[1] = new Book("whatever1", "something1");
 		myBooks[2] = new Book("whatever2", "something2");
@@ -23,7 +23,7 @@ public class BookTestDrive {
 		
 		for (Book book : myBooks) {
 			System.out.println("the book " + book.getTitle() +
-					"is written by " + book.getAuthor());
+					" is written by " + book.getAuthor());
 		}
 		
 	}
