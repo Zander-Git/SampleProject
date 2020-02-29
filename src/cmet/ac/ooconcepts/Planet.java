@@ -8,8 +8,12 @@ public class Planet {
 	private String name;
 	
 	
-	public static void Planet(String s , double d, double D, float f) {
-		//TODO
+	public static void Planet(String name , double mass, double distance, float obliquity) {
+		
+		
+		
+		
+		
 	}
 	
 	
