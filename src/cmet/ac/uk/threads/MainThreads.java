@@ -20,6 +20,10 @@ public class MainThreads {
 		
 		ChildThread t1 = new ChildThread("T1");
 		ChildThread t2 = new ChildThread("T2");
+		
+		t1.threadObj.join();
+		t2.threadObj.join();
+		
 		ChildThread t3 = new ChildThread("T3");
 	}
 
