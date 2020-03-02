@@ -26,7 +26,7 @@ public class Circle extends EllipticalShape {
 	public double getArea() {
 		
 		return pi * Math.pow(getRadius(), 2);
-	}
+	} 
 
 	@Override
 	public double getPerimeterLength() {

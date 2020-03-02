@@ -25,6 +25,6 @@ public abstract class Shape2D {
 	public abstract double getPerimeterLength();
 	public abstract ArrayList<Point> getBoundingReact();
 
-	
+	 
 	
 }

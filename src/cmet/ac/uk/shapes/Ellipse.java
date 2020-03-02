@@ -25,7 +25,7 @@ public class Ellipse extends EllipticalShape {
 	public double getArea() {
 		// TODO Auto-generated method stub
 		return 0;
-	}
+	} 
 
 	@Override
 	public double getPerimeterLength() {

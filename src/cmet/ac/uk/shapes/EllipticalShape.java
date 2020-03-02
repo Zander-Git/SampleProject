@@ -9,7 +9,7 @@ public abstract class EllipticalShape extends Shape2D {
 	private double semiMajorAxis;
 
 	protected double getSemiMajorAxis() {
-		return semiMajorAxis;
+		return semiMajorAxis; 
 	}
 
 	protected void setSemiMajorAxis(double semiMajorAxis) {
